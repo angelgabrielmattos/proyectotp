@@ -56,7 +56,7 @@ body {
 }
 
 .container span {
-    margin-top: -15px;
+    margin-top: -1px;
     margin-left: 5px;
 }
 
@@ -214,7 +214,6 @@ textarea {
     border-radius:20px;
     overflow:hidden;
     width:100%;
-    margin-top: -15px;
 }
 
 .fill {
@@ -230,4 +229,10 @@ textarea {
     margin-top:10px;
     color:var(--text-primary);
     min-height: 100px;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    filter: brightness(1.08);
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
 }
